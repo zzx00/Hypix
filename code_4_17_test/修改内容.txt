@@ -1,0 +1,13 @@
+1、mux2_1中没有用到rst_n，将其删去
+2、在寄存器堆中添加rst_n_pixel，000号寄存器data[3]
+3、在pixel_config中将rst_n_pixel变成两个送入data_route_merge_proc中，像素复位不影响DAC配置，只是将像素数据清零。
+4、将原来Dpulse变成Dpulse_en，实际上不用变，引一根Dpulse线到像素阵列中，然后Dpulse & Dpulse_en与hit做或运算。（所有像素的Dpulse都相同，Dpulse不是同步信号，是不是和rst_n相同，直接连进去就行）
+Dpulse从pad传入数字顶层，然后传入pixel_config中变成2位Dpulse，再传入data_route_merge_proc中。
+5、FTOA改成五位  都已改完，最后28位数据     9bit Timestamp + 5bit FTOA + 8bit ToT + 1bitaddr_col +3super_pixel + 1 + 1
+6、将clk_mask删掉？还是保留（先保留）
+7、将hit_or引入单像素中，超级像素管理模块中clk_640mHz也不需要，直接将640MHz连到每个单像素中即可。
+如果一个粒子中数据未被取走，下一个hit到来会改变原来寄存器中的数据
+8、同步，原来的hit_temp只用在了检测信号上升沿，不改变原来的hit_pixel和hit_pixel_temp，在其前面加一个hit_pixel_negedge，然后hit_pixel同步hit_pixel_negedge
+9、加Apulse_en,000号寄存器data[2]。1允许0不允许，初始为0。在top_super_pixel中Apulse_en_super_pixel[7:0]跟模拟中的单像素相连。
+10、TOA只记录第一个上升沿。
+

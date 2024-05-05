@@ -1,0 +1,104 @@
+@nLint.exe rc file Version 1.0
+[BookMarks]
+0 = * 0
+[DisabledMessages]
+version = 2.2v24
+[Form]
+nlRVDsgWnd.fm = 0,0,800,877
+nLintPrjDsgWnd.fm = 0,0,755,500
+nLintimportDsg.fm = 0,0,698,731
+[GlobalProp]
+Project_Font = Helvetica_M_R_12
+Lint_LintLib = FALSE
+Lint_MaxWarn = 50000
+Lint_ShowOnDebussy = FALSE
+Debussy_Cmd = "Debussy"
+Full_Path = 0
+Find_MatchCase = TRUE
+Find_RegExp = FALSE
+ColumnNum = 9
+ColumnOrder1 = "E/D" "1"
+ColumnOrder2 = "TOFF" "1"
+ColumnOrder3 = "IndexName" "1"
+ColumnOrder4 = "Description" "1"
+ColumnOrder5 = "Severity" "1"
+ColumnOrder6 = "Argument1" "1"
+ColumnOrder7 = "Argument2" "1"
+ColumnOrder8 = "Number" "0"
+ColumnOrder9 = "Name" "0"
+RuleOrg = 173 134 800 600
+ViewPort_Project = 378 168 755 500
+ViewPort_Editor = 335 10 600 600
+ViewPort_Report = 0 0 800 877
+ViewPort_Output_ReportTree = 780 311
+File_TREE_WH = 200 322
+PrjDsgWnd_WH = 735 350
+IgnoreSynTranCode = FALSE
+DFT_Reduce = TRUE
+DFT_Assign = TRUE
+DFT_Buffer = TRUE
+DFT_Invert = TRUE
+SaveOriginalFileLine = FALSE
+[Language]
+Language = BOTH
+Font = COURIER12
+Background = ID_WHITE
+Comment = ID_GREEN2
+Keyword = ID_BLUE5
+UserKeyword = ID_PURPLE5
+Text = ID_BLACK
+String = ID_RED5
+Number = ID_RED5
+Operator = ID_BLACK
+SelText = ID_YELLOW5
+SelBackground = ID_BLUE2
+LineNumber = ID_BLACK
+[LintSettingDlg]
+Preview = FALSE
+[ProjectProp]
+WorkDir = "C:\Users\dell\Desktop\code_4_17_test\code_4_17_test\code_4_17_test\super_pixel\ "
+Version = 2 0
+Platform = PC
+CmdFileList = " single_pixel_parallel.v super_pixel.v tcb018gbwp7t.v top_single_super_pixel.v "
+Language = "VERILOG2K"
+[RuleOrg]
+Width0 = 24
+Width1 = 26
+Width2 = 52
+Width3 = 254
+Width4 = 65
+Width5 = 61
+Width6 = 67
+Width7 = 52
+Width8 = 254
+TreeHeightWidth = 461 300
+[SeverityString]
+Level1 = "Information"
+Level2 = "Warning"
+Level3 = "Error"
+Level4 = "Fatal Error"
+Level5 = "Level5"
+Level6 = "Level6"
+Level7 = "Level7"
+Level8 = "Level8"
+Level9 = "Level9"
+Level10 = "Level10"
+[Sort]
+SortBy = Number
+[SrcFileProp]
+Count = 4
+File1 = "tcb018gbwp7t.v" "HDL" T
+File2 = "top_single_super_pixel.v" "HDL" T
+File3 = "super_pixel.v" "HDL" T
+File4 = "single_pixel_parallel.v" "HDL" T
+[SyncSetting]
+STPSettingNum = 0
+[ViolationSort]
+SortOrder = Ascendent
+SortBy = Group
+[importDesignSession]
+import_filter_verilog = *.v; *.vc; *.f
+import_default_language = Verilog-2001
+import_from = source
+autoAlias = FALSE
+incLoad = TRUE

@@ -1,0 +1,1172 @@
+C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_super_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_super_pixel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module super_ctrl_tb
+
+Top level modules:
+	super_ctrl_tb
+
+} {} {}} C:/Users/dell/Desktop/code_4_1/front/tcb018gbwp7t.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/tcb018gbwp7t.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module AN2D0BWP7T
+-- Compiling module AN2D1BWP7T
+-- Compiling module AN2D2BWP7T
+-- Compiling module AN2D4BWP7T
+-- Compiling module AN2XD1BWP7T
+-- Compiling module AN3D0BWP7T
+-- Compiling module AN3D1BWP7T
+-- Compiling module AN3D2BWP7T
+-- Compiling module AN3D4BWP7T
+-- Compiling module AN3XD1BWP7T
+-- Compiling module AN4D0BWP7T
+-- Compiling module AN4D1BWP7T
+-- Compiling module AN4D2BWP7T
+-- Compiling module AN4D4BWP7T
+-- Compiling module AN4XD1BWP7T
+-- Compiling module ANTENNABWP7T
+-- Compiling module AO211D0BWP7T
+-- Compiling module AO211D1BWP7T
+-- Compiling module AO211D2BWP7T
+-- Compiling module AO21D0BWP7T
+-- Compiling module AO21D1BWP7T
+-- Compiling module AO21D2BWP7T
+-- Compiling module AO221D0BWP7T
+-- Compiling module AO221D1BWP7T
+-- Compiling module AO221D2BWP7T
+-- Compiling module AO222D0BWP7T
+-- Compiling module AO222D1BWP7T
+-- Compiling module AO222D2BWP7T
+-- Compiling module AO22D0BWP7T
+-- Compiling module AO22D1BWP7T
+-- Compiling module AO22D2BWP7T
+-- Compiling module AO31D0BWP7T
+-- Compiling module AO31D1BWP7T
+-- Compiling module AO31D2BWP7T
+-- Compiling module AO32D0BWP7T
+-- Compiling module AO32D1BWP7T
+-- Compiling module AO32D2BWP7T
+-- Compiling module AO33D0BWP7T
+-- Compiling module AO33D1BWP7T
+-- Compiling module AO33D2BWP7T
+-- Compiling module AOI211D0BWP7T
+-- Compiling module AOI211D1BWP7T
+-- Compiling module AOI211D2BWP7T
+-- Compiling module AOI211XD0BWP7T
+-- Compiling module AOI211XD1BWP7T
+-- Compiling module AOI211XD2BWP7T
+-- Compiling module AOI21D0BWP7T
+-- Compiling module AOI21D1BWP7T
+-- Compiling module AOI21D2BWP7T
+-- Compiling module AOI221D0BWP7T
+-- Compiling module AOI221D1BWP7T
+-- Compiling module AOI221D2BWP7T
+-- Compiling module AOI222D0BWP7T
+-- Compiling module AOI222D1BWP7T
+-- Compiling module AOI222D2BWP7T
+-- Compiling module AOI22D0BWP7T
+-- Compiling module AOI22D1BWP7T
+-- Compiling module AOI22D2BWP7T
+-- Compiling module AOI31D0BWP7T
+-- Compiling module AOI31D1BWP7T
+-- Compiling module AOI31D2BWP7T
+-- Compiling module AOI32D0BWP7T
+-- Compiling module AOI32D1BWP7T
+-- Compiling module AOI32D2BWP7T
+-- Compiling module AOI33D0BWP7T
+-- Compiling module AOI33D1BWP7T
+-- Compiling module AOI33D2BWP7T
+-- Compiling module BHDBWP7T
+-- Compiling module BUFFD0BWP7T
+-- Compiling module BUFFD10BWP7T
+-- Compiling module BUFFD12BWP7T
+-- Compiling module BUFFD1BWP7T
+-- Compiling module BUFFD1P5BWP7T
+-- Compiling module BUFFD2BWP7T
+-- Compiling module BUFFD2P5BWP7T
+-- Compiling module BUFFD3BWP7T
+-- Compiling module BUFFD4BWP7T
+-- Compiling module BUFFD5BWP7T
+-- Compiling module BUFFD6BWP7T
+-- Compiling module BUFFD8BWP7T
+-- Compiling module BUFTD0BWP7T
+-- Compiling module BUFTD1BWP7T
+-- Compiling module BUFTD2BWP7T
+-- Compiling module BUFTD3BWP7T
+-- Compiling module BUFTD4BWP7T
+-- Compiling module BUFTD6BWP7T
+-- Compiling module BUFTD8BWP7T
+-- Compiling module CKAN2D0BWP7T
+-- Compiling module CKAN2D1BWP7T
+-- Compiling module CKAN2D2BWP7T
+-- Compiling module CKAN2D4BWP7T
+-- Compiling module CKAN2D8BWP7T
+-- Compiling module CKBD0BWP7T
+-- Compiling module CKBD10BWP7T
+-- Compiling module CKBD12BWP7T
+-- Compiling module CKBD1BWP7T
+-- Compiling module CKBD2BWP7T
+-- Compiling module CKBD3BWP7T
+-- Compiling module CKBD4BWP7T
+-- Compiling module CKBD6BWP7T
+-- Compiling module CKBD8BWP7T
+-- Compiling module CKLHQD1BWP7T
+-- Compiling module CKLHQD2BWP7T
+-- Compiling module CKLHQD4BWP7T
+-- Compiling module CKLHQD6BWP7T
+-- Compiling module CKLHQD8BWP7T
+-- Compiling module CKLNQD1BWP7T
+-- Compiling module CKLNQD2BWP7T
+-- Compiling module CKLNQD4BWP7T
+-- Compiling module CKLNQD6BWP7T
+-- Compiling module CKLNQD8BWP7T
+-- Compiling module CKMUX2D0BWP7T
+-- Compiling module CKMUX2D1BWP7T
+-- Compiling module CKMUX2D2BWP7T
+-- Compiling module CKND0BWP7T
+-- Compiling module CKND10BWP7T
+-- Compiling module CKND12BWP7T
+-- Compiling module CKND1BWP7T
+-- Compiling module CKND2BWP7T
+-- Compiling module CKND2D0BWP7T
+-- Compiling module CKND2D1BWP7T
+-- Compiling module CKND2D2BWP7T
+-- Compiling module CKND2D3BWP7T
+-- Compiling module CKND2D4BWP7T
+-- Compiling module CKND2D8BWP7T
+-- Compiling module CKND3BWP7T
+-- Compiling module CKND4BWP7T
+-- Compiling module CKND6BWP7T
+-- Compiling module CKND8BWP7T
+-- Compiling module CKXOR2D0BWP7T
+-- Compiling module CKXOR2D1BWP7T
+-- Compiling module CKXOR2D2BWP7T
+-- Compiling module CKXOR2D4BWP7T
+-- Compiling module DCAP16BWP7T
+-- Compiling module DCAP32BWP7T
+-- Compiling module DCAP4BWP7T
+-- Compiling module DCAP64BWP7T
+-- Compiling module DCAP8BWP7T
+-- Compiling module DCAPBWP7T
+-- Compiling module DEL015BWP7T
+-- Compiling module DEL01BWP7T
+-- Compiling module DEL02BWP7T
+-- Compiling module DEL0BWP7T
+-- Compiling module DEL1BWP7T
+-- Compiling module DEL2BWP7T
+-- Compiling module DEL3BWP7T
+-- Compiling module DEL4BWP7T
+-- Compiling module DFCND0BWP7T
+-- Compiling module DFCND1BWP7T
+-- Compiling module DFCND2BWP7T
+-- Compiling module DFCNQD1BWP7T
+-- Compiling module DFCNQD2BWP7T
+-- Compiling module DFD0BWP7T
+-- Compiling module DFD1BWP7T
+-- Compiling module DFD2BWP7T
+-- Compiling module DFKCND0BWP7T
+-- Compiling module DFKCND1BWP7T
+-- Compiling module DFKCND2BWP7T
+-- Compiling module DFKCNQD1BWP7T
+-- Compiling module DFKCNQD2BWP7T
+-- Compiling module DFKSND0BWP7T
+-- Compiling module DFKSND1BWP7T
+-- Compiling module DFKSND2BWP7T
+-- Compiling module DFNCND0BWP7T
+-- Compiling module DFNCND1BWP7T
+-- Compiling module DFNCND2BWP7T
+-- Compiling module DFND0BWP7T
+-- Compiling module DFND1BWP7T
+-- Compiling module DFND2BWP7T
+-- Compiling module DFNSND0BWP7T
+-- Compiling module DFNSND1BWP7T
+-- Compiling module DFNSND2BWP7T
+-- Compiling module DFQD0BWP7T
+-- Compiling module DFQD1BWP7T
+-- Compiling module DFQD2BWP7T
+-- Compiling module DFSND0BWP7T
+-- Compiling module DFSND1BWP7T
+-- Compiling module DFSND2BWP7T
+-- Compiling module DFSNQD1BWP7T
+-- Compiling module DFSNQD2BWP7T
+-- Compiling module DFXD0BWP7T
+-- Compiling module DFXD1BWP7T
+-- Compiling module DFXD2BWP7T
+-- Compiling module DFXQD1BWP7T
+-- Compiling module DFXQD2BWP7T
+-- Compiling module EDFCND0BWP7T
+-- Compiling module EDFCND1BWP7T
+-- Compiling module EDFCND2BWP7T
+-- Compiling module EDFCNQD1BWP7T
+-- Compiling module EDFCNQD2BWP7T
+-- Compiling module EDFD0BWP7T
+-- Compiling module EDFD1BWP7T
+-- Compiling module EDFD2BWP7T
+-- Compiling module EDFKCND0BWP7T
+-- Compiling module EDFKCND1BWP7T
+-- Compiling module EDFKCND2BWP7T
+-- Compiling module EDFKCNQD1BWP7T
+-- Compiling module EDFKCNQD2BWP7T
+-- Compiling module EDFQD0BWP7T
+-- Compiling module EDFQD1BWP7T
+-- Compiling module EDFQD2BWP7T
+-- Compiling module FA1D0BWP7T
+-- Compiling module FA1D1BWP7T
+-- Compiling module FA1D2BWP7T
+-- Compiling module GAN2D1BWP7T
+-- Compiling module GAN2D2BWP7T
+-- Compiling module GAOI21D1BWP7T
+-- Compiling module GAOI21D2BWP7T
+-- Compiling module GAOI22D1BWP7T
+-- Compiling module GBUFFD1BWP7T
+-- Compiling module GBUFFD2BWP7T
+-- Compiling module GBUFFD3BWP7T
+-- Compiling module GBUFFD8BWP7T
+-- Compiling module GDCAP10BWP7T
+-- Compiling module GDCAP2BWP7T
+-- Compiling module GDCAP3BWP7T
+-- Compiling module GDCAP4BWP7T
+-- Compiling module GDCAPBWP7T
+-- Compiling module GDFCNQD1BWP7T
+-- Compiling module GDFQD1BWP7T
+-- Compiling module GFILL10BWP7T
+-- Compiling module GFILL2BWP7T
+-- Compiling module GFILL3BWP7T
+-- Compiling module GFILL4BWP7T
+-- Compiling module GFILLBWP7T
+-- Compiling module GINVD1BWP7T
+-- Compiling module GINVD2BWP7T
+-- Compiling module GINVD3BWP7T
+-- Compiling module GINVD8BWP7T
+-- Compiling module GMUX2D1BWP7T
+-- Compiling module GMUX2D2BWP7T
+-- Compiling module GMUX2ND1BWP7T
+-- Compiling module GMUX2ND2BWP7T
+-- Compiling module GND2D1BWP7T
+-- Compiling module GND2D2BWP7T
+-- Compiling module GND2D3BWP7T
+-- Compiling module GND3D1BWP7T
+-- Compiling module GND3D2BWP7T
+-- Compiling module GNR2D1BWP7T
+-- Compiling module GNR2D2BWP7T
+-- Compiling module GNR3D1BWP7T
+-- Compiling module GNR3D2BWP7T
+-- Compiling module GOAI21D1BWP7T
+-- Compiling module GOAI21D2BWP7T
+-- Compiling module GOR2D1BWP7T
+-- Compiling module GOR2D2BWP7T
+-- Compiling module GSDFCNQD1BWP7T
+-- Compiling module GTIEHBWP7T
+-- Compiling module GTIELBWP7T
+-- Compiling module GXNR2D1BWP7T
+-- Compiling module GXNR2D2BWP7T
+-- Compiling module GXOR2D1BWP7T
+-- Compiling module GXOR2D2BWP7T
+-- Compiling module HA1D0BWP7T
+-- Compiling module HA1D1BWP7T
+-- Compiling module HA1D2BWP7T
+-- Compiling module IAO21D0BWP7T
+-- Compiling module IAO21D1BWP7T
+-- Compiling module IAO21D2BWP7T
+-- Compiling module IAO22D0BWP7T
+-- Compiling module IAO22D1BWP7T
+-- Compiling module IAO22D2BWP7T
+-- Compiling module IIND4D0BWP7T
+-- Compiling module IIND4D1BWP7T
+-- Compiling module IIND4D2BWP7T
+-- Compiling module IINR4D0BWP7T
+-- Compiling module IINR4D1BWP7T
+-- Compiling module IINR4D2BWP7T
+-- Compiling module IND2D0BWP7T
+-- Compiling module IND2D1BWP7T
+-- Compiling module IND2D2BWP7T
+-- Compiling module IND2D4BWP7T
+-- Compiling module IND3D0BWP7T
+-- Compiling module IND3D1BWP7T
+-- Compiling module IND3D2BWP7T
+-- Compiling module IND4D0BWP7T
+-- Compiling module IND4D1BWP7T
+-- Compiling module IND4D2BWP7T
+-- Compiling module INR2D0BWP7T
+-- Compiling module INR2D1BWP7T
+-- Compiling module INR2D2BWP7T
+-- Compiling module INR2D4BWP7T
+-- Compiling module INR2XD0BWP7T
+-- Compiling module INR2XD1BWP7T
+-- Compiling module INR2XD2BWP7T
+-- Compiling module INR2XD4BWP7T
+-- Compiling module INR3D0BWP7T
+-- Compiling module INR3D1BWP7T
+-- Compiling module INR3D2BWP7T
+-- Compiling module INR4D0BWP7T
+-- Compiling module INR4D1BWP7T
+-- Compiling module INR4D2BWP7T
+-- Compiling module INVD0BWP7T
+-- Compiling module INVD10BWP7T
+-- Compiling module INVD12BWP7T
+-- Compiling module INVD1BWP7T
+-- Compiling module INVD1P5BWP7T
+-- Compiling module INVD2BWP7T
+-- Compiling module INVD2P5BWP7T
+-- Compiling module INVD3BWP7T
+-- Compiling module INVD4BWP7T
+-- Compiling module INVD5BWP7T
+-- Compiling module INVD6BWP7T
+-- Compiling module INVD8BWP7T
+-- Compiling module IOA21D0BWP7T
+-- Compiling module IOA21D1BWP7T
+-- Compiling module IOA21D2BWP7T
+-- Compiling module IOA22D0BWP7T
+-- Compiling module IOA22D1BWP7T
+-- Compiling module IOA22D2BWP7T
+-- Compiling module LHCND1BWP7T
+-- Compiling module LHCND2BWP7T
+-- Compiling module LHCNQD1BWP7T
+-- Compiling module LHCNQD2BWP7T
+-- Compiling module LHD1BWP7T
+-- Compiling module LHD2BWP7T
+-- Compiling module LHQD1BWP7T
+-- Compiling module LHQD2BWP7T
+-- Compiling module LHSND1BWP7T
+-- Compiling module LHSND2BWP7T
+-- Compiling module LHSNQD1BWP7T
+-- Compiling module LHSNQD2BWP7T
+-- Compiling module LNCND1BWP7T
+-- Compiling module LNCND2BWP7T
+-- Compiling module LNCNQD1BWP7T
+-- Compiling module LNCNQD2BWP7T
+-- Compiling module LND1BWP7T
+-- Compiling module LND2BWP7T
+-- Compiling module LNQD1BWP7T
+-- Compiling module LNQD2BWP7T
+-- Compiling module LNSND1BWP7T
+-- Compiling module LNSND2BWP7T
+-- Compiling module LNSNQD1BWP7T
+-- Compiling module LNSNQD2BWP7T
+-- Compiling module MAOI222D0BWP7T
+-- Compiling module MAOI222D1BWP7T
+-- Compiling module MAOI222D2BWP7T
+-- Compiling module MAOI22D0BWP7T
+-- Compiling module MAOI22D1BWP7T
+-- Compiling module MAOI22D2BWP7T
+-- Compiling module MOAI22D0BWP7T
+-- Compiling module MOAI22D1BWP7T
+-- Compiling module MOAI22D2BWP7T
+-- Compiling module MUX2D0BWP7T
+-- Compiling module MUX2D1BWP7T
+-- Compiling module MUX2D2BWP7T
+-- Compiling module MUX2ND0BWP7T
+-- Compiling module MUX2ND1BWP7T
+-- Compiling module MUX2ND2BWP7T
+-- Compiling module MUX3D0BWP7T
+-- Compiling module MUX3D1BWP7T
+-- Compiling module MUX3D2BWP7T
+-- Compiling module MUX3ND0BWP7T
+-- Compiling module MUX3ND1BWP7T
+-- Compiling module MUX3ND2BWP7T
+-- Compiling module MUX4D0BWP7T
+-- Compiling module MUX4D1BWP7T
+-- Compiling module MUX4D2BWP7T
+-- Compiling module MUX4ND0BWP7T
+-- Compiling module MUX4ND1BWP7T
+-- Compiling module MUX4ND2BWP7T
+-- Compiling module ND2D0BWP7T
+-- Compiling module ND2D1BWP7T
+-- Compiling module ND2D1P5BWP7T
+-- Compiling module ND2D2BWP7T
+-- Compiling module ND2D2P5BWP7T
+-- Compiling module ND2D3BWP7T
+-- Compiling module ND2D4BWP7T
+-- Compiling module ND2D5BWP7T
+-- Compiling module ND2D6BWP7T
+-- Compiling module ND2D8BWP7T
+-- Compiling module ND3D0BWP7T
+-- Compiling module ND3D1BWP7T
+-- Compiling module ND3D2BWP7T
+-- Compiling module ND3D3BWP7T
+-- Compiling module ND3D4BWP7T
+-- Compiling module ND4D0BWP7T
+-- Compiling module ND4D1BWP7T
+-- Compiling module ND4D2BWP7T
+-- Compiling module ND4D3BWP7T
+-- Compiling module ND4D4BWP7T
+-- Compiling module NR2D0BWP7T
+-- Compiling module NR2D1BWP7T
+-- Compiling module NR2D1P5BWP7T
+-- Compiling module NR2D2BWP7T
+-- Compiling module NR2D2P5BWP7T
+-- Compiling module NR2D3BWP7T
+-- Compiling module NR2D4BWP7T
+-- Compiling module NR2D5BWP7T
+-- Compiling module NR2D6BWP7T
+-- Compiling module NR2D8BWP7T
+-- Compiling module NR2XD0BWP7T
+-- Compiling module NR2XD1BWP7T
+-- Compiling module NR2XD2BWP7T
+-- Compiling module NR2XD3BWP7T
+-- Compiling module NR2XD4BWP7T
+-- Compiling module NR2XD8BWP7T
+-- Compiling module NR3D0BWP7T
+-- Compiling module NR3D1BWP7T
+-- Compiling module NR3D2BWP7T
+-- Compiling module NR3D3BWP7T
+-- Compiling module NR3D4BWP7T
+-- Compiling module NR4D0BWP7T
+-- Compiling module NR4D1BWP7T
+-- Compiling module NR4D2BWP7T
+-- Compiling module NR4D3BWP7T
+-- Compiling module NR4D4BWP7T
+-- Compiling module OA211D0BWP7T
+-- Compiling module OA211D1BWP7T
+-- Compiling module OA211D2BWP7T
+-- Compiling module OA21D0BWP7T
+-- Compiling module OA21D1BWP7T
+-- Compiling module OA21D2BWP7T
+-- Compiling module OA221D0BWP7T
+-- Compiling module OA221D1BWP7T
+-- Compiling module OA221D2BWP7T
+-- Compiling module OA222D0BWP7T
+-- Compiling module OA222D1BWP7T
+-- Compiling module OA222D2BWP7T
+-- Compiling module OA22D0BWP7T
+-- Compiling module OA22D1BWP7T
+-- Compiling module OA22D2BWP7T
+-- Compiling module OA31D0BWP7T
+-- Compiling module OA31D1BWP7T
+-- Compiling module OA31D2BWP7T
+-- Compiling module OA32D0BWP7T
+-- Compiling module OA32D1BWP7T
+-- Compiling module OA32D2BWP7T
+-- Compiling module OA33D0BWP7T
+-- Compiling module OA33D1BWP7T
+-- Compiling module OA33D2BWP7T
+-- Compiling module OAI211D0BWP7T
+-- Compiling module OAI211D1BWP7T
+-- Compiling module OAI211D2BWP7T
+-- Compiling module OAI21D0BWP7T
+-- Compiling module OAI21D1BWP7T
+-- Compiling module OAI21D2BWP7T
+-- Compiling module OAI221D0BWP7T
+-- Compiling module OAI221D1BWP7T
+-- Compiling module OAI221D2BWP7T
+-- Compiling module OAI222D0BWP7T
+-- Compiling module OAI222D1BWP7T
+-- Compiling module OAI222D2BWP7T
+-- Compiling module OAI22D0BWP7T
+-- Compiling module OAI22D1BWP7T
+-- Compiling module OAI22D2BWP7T
+-- Compiling module OAI31D0BWP7T
+-- Compiling module OAI31D1BWP7T
+-- Compiling module OAI31D2BWP7T
+-- Compiling module OAI32D0BWP7T
+-- Compiling module OAI32D1BWP7T
+-- Compiling module OAI32D2BWP7T
+-- Compiling module OAI33D0BWP7T
+-- Compiling module OAI33D1BWP7T
+-- Compiling module OAI33D2BWP7T
+-- Compiling module OR2D0BWP7T
+-- Compiling module OR2D1BWP7T
+-- Compiling module OR2D2BWP7T
+-- Compiling module OR2D4BWP7T
+-- Compiling module OR2D8BWP7T
+-- Compiling module OR2XD1BWP7T
+-- Compiling module OR3D0BWP7T
+-- Compiling module OR3D1BWP7T
+-- Compiling module OR3D2BWP7T
+-- Compiling module OR3D4BWP7T
+-- Compiling module OR3XD1BWP7T
+-- Compiling module OR4D0BWP7T
+-- Compiling module OR4D1BWP7T
+-- Compiling module OR4D2BWP7T
+-- Compiling module OR4D4BWP7T
+-- Compiling module OR4XD1BWP7T
+-- Compiling module SDFCND0BWP7T
+-- Compiling module SDFCND1BWP7T
+-- Compiling module SDFCND2BWP7T
+-- Compiling module SDFCNQD0BWP7T
+-- Compiling module SDFCNQD1BWP7T
+-- Compiling module SDFCNQD2BWP7T
+-- Compiling module SDFD0BWP7T
+-- Compiling module SDFD1BWP7T
+-- Compiling module SDFD2BWP7T
+-- Compiling module SDFKCND0BWP7T
+-- Compiling module SDFKCND1BWP7T
+-- Compiling module SDFKCND2BWP7T
+-- Compiling module SDFKCNQD0BWP7T
+-- Compiling module SDFKCNQD1BWP7T
+-- Compiling module SDFKCNQD2BWP7T
+-- Compiling module SDFKSND0BWP7T
+-- Compiling module SDFKSND1BWP7T
+-- Compiling module SDFKSND2BWP7T
+-- Compiling module SDFKSNQD0BWP7T
+-- Compiling module SDFKSNQD1BWP7T
+-- Compiling module SDFKSNQD2BWP7T
+-- Compiling module SDFNCND0BWP7T
+-- Compiling module SDFNCND1BWP7T
+-- Compiling module SDFNCND2BWP7T
+-- Compiling module SDFND0BWP7T
+-- Compiling module SDFND1BWP7T
+-- Compiling module SDFND2BWP7T
+-- Compiling module SDFNSND0BWP7T
+-- Compiling module SDFNSND1BWP7T
+-- Compiling module SDFNSND2BWP7T
+-- Compiling module SDFQD0BWP7T
+-- Compiling module SDFQD1BWP7T
+-- Compiling module SDFQD2BWP7T
+-- Compiling module SDFQND0BWP7T
+-- Compiling module SDFQND1BWP7T
+-- Compiling module SDFQND2BWP7T
+-- Compiling module SDFSND0BWP7T
+-- Compiling module SDFSND1BWP7T
+-- Compiling module SDFSND2BWP7T
+-- Compiling module SDFSNQD0BWP7T
+-- Compiling module SDFSNQD1BWP7T
+-- Compiling module SDFSNQD2BWP7T
+-- Compiling module SDFXD0BWP7T
+-- Compiling module SDFXD1BWP7T
+-- Compiling module SDFXD2BWP7T
+-- Compiling module SDFXQD0BWP7T
+-- Compiling module SDFXQD1BWP7T
+-- Compiling module SDFXQD2BWP7T
+-- Compiling module SEDFCND0BWP7T
+-- Compiling module SEDFCND1BWP7T
+-- Compiling module SEDFCND2BWP7T
+-- Compiling module SEDFCNQD0BWP7T
+-- Compiling module SEDFCNQD1BWP7T
+-- Compiling module SEDFCNQD2BWP7T
+-- Compiling module SEDFD0BWP7T
+-- Compiling module SEDFD1BWP7T
+-- Compiling module SEDFD2BWP7T
+-- Compiling module SEDFKCND0BWP7T
+-- Compiling module SEDFKCND1BWP7T
+-- Compiling module SEDFKCND2BWP7T
+-- Compiling module SEDFKCNQD0BWP7T
+-- Compiling module SEDFKCNQD1BWP7T
+-- Compiling module SEDFKCNQD2BWP7T
+-- Compiling module SEDFQD0BWP7T
+-- Compiling module SEDFQD1BWP7T
+-- Compiling module SEDFQD2BWP7T
+-- Compiling module SEDFQND0BWP7T
+-- Compiling module SEDFQND1BWP7T
+-- Compiling module SEDFQND2BWP7T
+-- Compiling module TIEHBWP7T
+-- Compiling module TIELBWP7T
+-- Compiling module XNR2D0BWP7T
+-- Compiling module XNR2D1BWP7T
+-- Compiling module XNR2D2BWP7T
+-- Compiling module XNR3D0BWP7T
+-- Compiling module XNR3D1BWP7T
+-- Compiling module XNR3D2BWP7T
+-- Compiling module XNR4D0BWP7T
+-- Compiling module XNR4D1BWP7T
+-- Compiling module XNR4D2BWP7T
+-- Compiling module XOR2D0BWP7T
+-- Compiling module XOR2D1BWP7T
+-- Compiling module XOR2D2BWP7T
+-- Compiling module XOR3D0BWP7T
+-- Compiling module XOR3D1BWP7T
+-- Compiling module XOR3D2BWP7T
+-- Compiling module XOR4D0BWP7T
+-- Compiling module XOR4D1BWP7T
+-- Compiling module XOR4D2BWP7T
+-- Compiling UDP tsmc_dla
+-- Compiling UDP tsmc_xbuf
+-- Compiling UDP tsmc_mux
+-- Compiling UDP tsmc_dff
+
+Top level modules:
+	AN2D0BWP7T
+	AN2D1BWP7T
+	AN2D2BWP7T
+	AN2D4BWP7T
+	AN2XD1BWP7T
+	AN3D0BWP7T
+	AN3D1BWP7T
+	AN3D2BWP7T
+	AN3D4BWP7T
+	AN3XD1BWP7T
+	AN4D0BWP7T
+	AN4D1BWP7T
+	AN4D2BWP7T
+	AN4D4BWP7T
+	AN4XD1BWP7T
+	ANTENNABWP7T
+	AO211D0BWP7T
+	AO211D1BWP7T
+	AO211D2BWP7T
+	AO21D0BWP7T
+	AO21D1BWP7T
+	AO21D2BWP7T
+	AO221D0BWP7T
+	AO221D1BWP7T
+	AO221D2BWP7T
+	AO222D0BWP7T
+	AO222D1BWP7T
+	AO222D2BWP7T
+	AO22D0BWP7T
+	AO22D1BWP7T
+	AO22D2BWP7T
+	AO31D0BWP7T
+	AO31D1BWP7T
+	AO31D2BWP7T
+	AO32D0BWP7T
+	AO32D1BWP7T
+	AO32D2BWP7T
+	AO33D0BWP7T
+	AO33D1BWP7T
+	AO33D2BWP7T
+	AOI211D0BWP7T
+	AOI211D1BWP7T
+	AOI211D2BWP7T
+	AOI211XD0BWP7T
+	AOI211XD1BWP7T
+	AOI211XD2BWP7T
+	AOI21D0BWP7T
+	AOI21D1BWP7T
+	AOI21D2BWP7T
+	AOI221D0BWP7T
+	AOI221D1BWP7T
+	AOI221D2BWP7T
+	AOI222D0BWP7T
+	AOI222D1BWP7T
+	AOI222D2BWP7T
+	AOI22D0BWP7T
+	AOI22D1BWP7T
+	AOI22D2BWP7T
+	AOI31D0BWP7T
+	AOI31D1BWP7T
+	AOI31D2BWP7T
+	AOI32D0BWP7T
+	AOI32D1BWP7T
+	AOI32D2BWP7T
+	AOI33D0BWP7T
+	AOI33D1BWP7T
+	AOI33D2BWP7T
+	BHDBWP7T
+	BUFFD0BWP7T
+	BUFFD10BWP7T
+	BUFFD12BWP7T
+	BUFFD1BWP7T
+	BUFFD1P5BWP7T
+	BUFFD2BWP7T
+	BUFFD2P5BWP7T
+	BUFFD3BWP7T
+	BUFFD4BWP7T
+	BUFFD5BWP7T
+	BUFFD6BWP7T
+	BUFFD8BWP7T
+	BUFTD0BWP7T
+	BUFTD1BWP7T
+	BUFTD2BWP7T
+	BUFTD3BWP7T
+	BUFTD4BWP7T
+	BUFTD6BWP7T
+	BUFTD8BWP7T
+	CKAN2D0BWP7T
+	CKAN2D1BWP7T
+	CKAN2D2BWP7T
+	CKAN2D4BWP7T
+	CKAN2D8BWP7T
+	CKBD0BWP7T
+	CKBD10BWP7T
+	CKBD12BWP7T
+	CKBD1BWP7T
+	CKBD2BWP7T
+	CKBD3BWP7T
+	CKBD4BWP7T
+	CKBD6BWP7T
+	CKBD8BWP7T
+	CKLHQD1BWP7T
+	CKLHQD2BWP7T
+	CKLHQD4BWP7T
+	CKLHQD6BWP7T
+	CKLHQD8BWP7T
+	CKLNQD1BWP7T
+	CKLNQD2BWP7T
+	CKLNQD4BWP7T
+	CKLNQD6BWP7T
+	CKLNQD8BWP7T
+	CKMUX2D0BWP7T
+	CKMUX2D1BWP7T
+	CKMUX2D2BWP7T
+	CKND0BWP7T
+	CKND10BWP7T
+	CKND12BWP7T
+	CKND1BWP7T
+	CKND2BWP7T
+	CKND2D0BWP7T
+	CKND2D1BWP7T
+	CKND2D2BWP7T
+	CKND2D3BWP7T
+	CKND2D4BWP7T
+	CKND2D8BWP7T
+	CKND3BWP7T
+	CKND4BWP7T
+	CKND6BWP7T
+	CKND8BWP7T
+	CKXOR2D0BWP7T
+	CKXOR2D1BWP7T
+	CKXOR2D2BWP7T
+	CKXOR2D4BWP7T
+	DCAP16BWP7T
+	DCAP32BWP7T
+	DCAP4BWP7T
+	DCAP64BWP7T
+	DCAP8BWP7T
+	DCAPBWP7T
+	DEL015BWP7T
+	DEL01BWP7T
+	DEL02BWP7T
+	DEL0BWP7T
+	DEL1BWP7T
+	DEL2BWP7T
+	DEL3BWP7T
+	DEL4BWP7T
+	DFCND0BWP7T
+	DFCND1BWP7T
+	DFCND2BWP7T
+	DFCNQD1BWP7T
+	DFCNQD2BWP7T
+	DFD0BWP7T
+	DFD1BWP7T
+	DFD2BWP7T
+	DFKCND0BWP7T
+	DFKCND1BWP7T
+	DFKCND2BWP7T
+	DFKCNQD1BWP7T
+	DFKCNQD2BWP7T
+	DFKSND0BWP7T
+	DFKSND1BWP7T
+	DFKSND2BWP7T
+	DFNCND0BWP7T
+	DFNCND1BWP7T
+	DFNCND2BWP7T
+	DFND0BWP7T
+	DFND1BWP7T
+	DFND2BWP7T
+	DFNSND0BWP7T
+	DFNSND1BWP7T
+	DFNSND2BWP7T
+	DFQD0BWP7T
+	DFQD1BWP7T
+	DFQD2BWP7T
+	DFSND0BWP7T
+	DFSND1BWP7T
+	DFSND2BWP7T
+	DFSNQD1BWP7T
+	DFSNQD2BWP7T
+	DFXD0BWP7T
+	DFXD1BWP7T
+	DFXD2BWP7T
+	DFXQD1BWP7T
+	DFXQD2BWP7T
+	EDFCND0BWP7T
+	EDFCND1BWP7T
+	EDFCND2BWP7T
+	EDFCNQD1BWP7T
+	EDFCNQD2BWP7T
+	EDFD0BWP7T
+	EDFD1BWP7T
+	EDFD2BWP7T
+	EDFKCND0BWP7T
+	EDFKCND1BWP7T
+	EDFKCND2BWP7T
+	EDFKCNQD1BWP7T
+	EDFKCNQD2BWP7T
+	EDFQD0BWP7T
+	EDFQD1BWP7T
+	EDFQD2BWP7T
+	FA1D0BWP7T
+	FA1D1BWP7T
+	FA1D2BWP7T
+	GAN2D1BWP7T
+	GAN2D2BWP7T
+	GAOI21D1BWP7T
+	GAOI21D2BWP7T
+	GAOI22D1BWP7T
+	GBUFFD1BWP7T
+	GBUFFD2BWP7T
+	GBUFFD3BWP7T
+	GBUFFD8BWP7T
+	GDCAP10BWP7T
+	GDCAP2BWP7T
+	GDCAP3BWP7T
+	GDCAP4BWP7T
+	GDCAPBWP7T
+	GDFCNQD1BWP7T
+	GDFQD1BWP7T
+	GFILL10BWP7T
+	GFILL2BWP7T
+	GFILL3BWP7T
+	GFILL4BWP7T
+	GFILLBWP7T
+	GINVD1BWP7T
+	GINVD2BWP7T
+	GINVD3BWP7T
+	GINVD8BWP7T
+	GMUX2D1BWP7T
+	GMUX2D2BWP7T
+	GMUX2ND1BWP7T
+	GMUX2ND2BWP7T
+	GND2D1BWP7T
+	GND2D2BWP7T
+	GND2D3BWP7T
+	GND3D1BWP7T
+	GND3D2BWP7T
+	GNR2D1BWP7T
+	GNR2D2BWP7T
+	GNR3D1BWP7T
+	GNR3D2BWP7T
+	GOAI21D1BWP7T
+	GOAI21D2BWP7T
+	GOR2D1BWP7T
+	GOR2D2BWP7T
+	GSDFCNQD1BWP7T
+	GTIEHBWP7T
+	GTIELBWP7T
+	GXNR2D1BWP7T
+	GXNR2D2BWP7T
+	GXOR2D1BWP7T
+	GXOR2D2BWP7T
+	HA1D0BWP7T
+	HA1D1BWP7T
+	HA1D2BWP7T
+	IAO21D0BWP7T
+	IAO21D1BWP7T
+	IAO21D2BWP7T
+	IAO22D0BWP7T
+	IAO22D1BWP7T
+	IAO22D2BWP7T
+	IIND4D0BWP7T
+	IIND4D1BWP7T
+	IIND4D2BWP7T
+	IINR4D0BWP7T
+	IINR4D1BWP7T
+	IINR4D2BWP7T
+	IND2D0BWP7T
+	IND2D1BWP7T
+	IND2D2BWP7T
+	IND2D4BWP7T
+	IND3D0BWP7T
+	IND3D1BWP7T
+	IND3D2BWP7T
+	IND4D0BWP7T
+	IND4D1BWP7T
+	IND4D2BWP7T
+	INR2D0BWP7T
+	INR2D1BWP7T
+	INR2D2BWP7T
+	INR2D4BWP7T
+	INR2XD0BWP7T
+	INR2XD1BWP7T
+	INR2XD2BWP7T
+	INR2XD4BWP7T
+	INR3D0BWP7T
+	INR3D1BWP7T
+	INR3D2BWP7T
+	INR4D0BWP7T
+	INR4D1BWP7T
+	INR4D2BWP7T
+	INVD0BWP7T
+	INVD10BWP7T
+	INVD12BWP7T
+	INVD1BWP7T
+	INVD1P5BWP7T
+	INVD2BWP7T
+	INVD2P5BWP7T
+	INVD3BWP7T
+	INVD4BWP7T
+	INVD5BWP7T
+	INVD6BWP7T
+	INVD8BWP7T
+	IOA21D0BWP7T
+	IOA21D1BWP7T
+	IOA21D2BWP7T
+	IOA22D0BWP7T
+	IOA22D1BWP7T
+	IOA22D2BWP7T
+	LHCND1BWP7T
+	LHCND2BWP7T
+	LHCNQD1BWP7T
+	LHCNQD2BWP7T
+	LHD1BWP7T
+	LHD2BWP7T
+	LHQD1BWP7T
+	LHQD2BWP7T
+	LHSND1BWP7T
+	LHSND2BWP7T
+	LHSNQD1BWP7T
+	LHSNQD2BWP7T
+	LNCND1BWP7T
+	LNCND2BWP7T
+	LNCNQD1BWP7T
+	LNCNQD2BWP7T
+	LND1BWP7T
+	LND2BWP7T
+	LNQD1BWP7T
+	LNQD2BWP7T
+	LNSND1BWP7T
+	LNSND2BWP7T
+	LNSNQD1BWP7T
+	LNSNQD2BWP7T
+	MAOI222D0BWP7T
+	MAOI222D1BWP7T
+	MAOI222D2BWP7T
+	MAOI22D0BWP7T
+	MAOI22D1BWP7T
+	MAOI22D2BWP7T
+	MOAI22D0BWP7T
+	MOAI22D1BWP7T
+	MOAI22D2BWP7T
+	MUX2D0BWP7T
+	MUX2D1BWP7T
+	MUX2D2BWP7T
+	MUX2ND0BWP7T
+	MUX2ND1BWP7T
+	MUX2ND2BWP7T
+	MUX3D0BWP7T
+	MUX3D1BWP7T
+	MUX3D2BWP7T
+	MUX3ND0BWP7T
+	MUX3ND1BWP7T
+	MUX3ND2BWP7T
+	MUX4D0BWP7T
+	MUX4D1BWP7T
+	MUX4D2BWP7T
+	MUX4ND0BWP7T
+	MUX4ND1BWP7T
+	MUX4ND2BWP7T
+	ND2D0BWP7T
+	ND2D1BWP7T
+	ND2D1P5BWP7T
+	ND2D2BWP7T
+	ND2D2P5BWP7T
+	ND2D3BWP7T
+	ND2D4BWP7T
+	ND2D5BWP7T
+	ND2D6BWP7T
+	ND2D8BWP7T
+	ND3D0BWP7T
+	ND3D1BWP7T
+	ND3D2BWP7T
+	ND3D3BWP7T
+	ND3D4BWP7T
+	ND4D0BWP7T
+	ND4D1BWP7T
+	ND4D2BWP7T
+	ND4D3BWP7T
+	ND4D4BWP7T
+	NR2D0BWP7T
+	NR2D1BWP7T
+	NR2D1P5BWP7T
+	NR2D2BWP7T
+	NR2D2P5BWP7T
+	NR2D3BWP7T
+	NR2D4BWP7T
+	NR2D5BWP7T
+	NR2D6BWP7T
+	NR2D8BWP7T
+	NR2XD0BWP7T
+	NR2XD1BWP7T
+	NR2XD2BWP7T
+	NR2XD3BWP7T
+	NR2XD4BWP7T
+	NR2XD8BWP7T
+	NR3D0BWP7T
+	NR3D1BWP7T
+	NR3D2BWP7T
+	NR3D3BWP7T
+	NR3D4BWP7T
+	NR4D0BWP7T
+	NR4D1BWP7T
+	NR4D2BWP7T
+	NR4D3BWP7T
+	NR4D4BWP7T
+	OA211D0BWP7T
+	OA211D1BWP7T
+	OA211D2BWP7T
+	OA21D0BWP7T
+	OA21D1BWP7T
+	OA21D2BWP7T
+	OA221D0BWP7T
+	OA221D1BWP7T
+	OA221D2BWP7T
+	OA222D0BWP7T
+	OA222D1BWP7T
+	OA222D2BWP7T
+	OA22D0BWP7T
+	OA22D1BWP7T
+	OA22D2BWP7T
+	OA31D0BWP7T
+	OA31D1BWP7T
+	OA31D2BWP7T
+	OA32D0BWP7T
+	OA32D1BWP7T
+	OA32D2BWP7T
+	OA33D0BWP7T
+	OA33D1BWP7T
+	OA33D2BWP7T
+	OAI211D0BWP7T
+	OAI211D1BWP7T
+	OAI211D2BWP7T
+	OAI21D0BWP7T
+	OAI21D1BWP7T
+	OAI21D2BWP7T
+	OAI221D0BWP7T
+	OAI221D1BWP7T
+	OAI221D2BWP7T
+	OAI222D0BWP7T
+	OAI222D1BWP7T
+	OAI222D2BWP7T
+	OAI22D0BWP7T
+	OAI22D1BWP7T
+	OAI22D2BWP7T
+	OAI31D0BWP7T
+	OAI31D1BWP7T
+	OAI31D2BWP7T
+	OAI32D0BWP7T
+	OAI32D1BWP7T
+	OAI32D2BWP7T
+	OAI33D0BWP7T
+	OAI33D1BWP7T
+	OAI33D2BWP7T
+	OR2D0BWP7T
+	OR2D1BWP7T
+	OR2D2BWP7T
+	OR2D4BWP7T
+	OR2D8BWP7T
+	OR2XD1BWP7T
+	OR3D0BWP7T
+	OR3D1BWP7T
+	OR3D2BWP7T
+	OR3D4BWP7T
+	OR3XD1BWP7T
+	OR4D0BWP7T
+	OR4D1BWP7T
+	OR4D2BWP7T
+	OR4D4BWP7T
+	OR4XD1BWP7T
+	SDFCND0BWP7T
+	SDFCND1BWP7T
+	SDFCND2BWP7T
+	SDFCNQD0BWP7T
+	SDFCNQD1BWP7T
+	SDFCNQD2BWP7T
+	SDFD0BWP7T
+	SDFD1BWP7T
+	SDFD2BWP7T
+	SDFKCND0BWP7T
+	SDFKCND1BWP7T
+	SDFKCND2BWP7T
+	SDFKCNQD0BWP7T
+	SDFKCNQD1BWP7T
+	SDFKCNQD2BWP7T
+	SDFKSND0BWP7T
+	SDFKSND1BWP7T
+	SDFKSND2BWP7T
+	SDFKSNQD0BWP7T
+	SDFKSNQD1BWP7T
+	SDFKSNQD2BWP7T
+	SDFNCND0BWP7T
+	SDFNCND1BWP7T
+	SDFNCND2BWP7T
+	SDFND0BWP7T
+	SDFND1BWP7T
+	SDFND2BWP7T
+	SDFNSND0BWP7T
+	SDFNSND1BWP7T
+	SDFNSND2BWP7T
+	SDFQD0BWP7T
+	SDFQD1BWP7T
+	SDFQD2BWP7T
+	SDFQND0BWP7T
+	SDFQND1BWP7T
+	SDFQND2BWP7T
+	SDFSND0BWP7T
+	SDFSND1BWP7T
+	SDFSND2BWP7T
+	SDFSNQD0BWP7T
+	SDFSNQD1BWP7T
+	SDFSNQD2BWP7T
+	SDFXD0BWP7T
+	SDFXD1BWP7T
+	SDFXD2BWP7T
+	SDFXQD0BWP7T
+	SDFXQD1BWP7T
+	SDFXQD2BWP7T
+	SEDFCND0BWP7T
+	SEDFCND1BWP7T
+	SEDFCND2BWP7T
+	SEDFCNQD0BWP7T
+	SEDFCNQD1BWP7T
+	SEDFCNQD2BWP7T
+	SEDFD0BWP7T
+	SEDFD1BWP7T
+	SEDFD2BWP7T
+	SEDFKCND0BWP7T
+	SEDFKCND1BWP7T
+	SEDFKCND2BWP7T
+	SEDFKCNQD0BWP7T
+	SEDFKCNQD1BWP7T
+	SEDFKCNQD2BWP7T
+	SEDFQD0BWP7T
+	SEDFQD1BWP7T
+	SEDFQD2BWP7T
+	SEDFQND0BWP7T
+	SEDFQND1BWP7T
+	SEDFQND2BWP7T
+	TIEHBWP7T
+	TIELBWP7T
+	XNR2D0BWP7T
+	XNR2D1BWP7T
+	XNR2D2BWP7T
+	XNR3D0BWP7T
+	XNR3D1BWP7T
+	XNR3D2BWP7T
+	XNR4D0BWP7T
+	XNR4D1BWP7T
+	XNR4D2BWP7T
+	XOR2D0BWP7T
+	XOR2D1BWP7T
+	XOR2D2BWP7T
+	XOR3D0BWP7T
+	XOR3D1BWP7T
+	XOR3D2BWP7T
+	XOR4D0BWP7T
+	XOR4D1BWP7T
+	XOR4D2BWP7T
+
+} {} {}} C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_column_super_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_column_super_pixel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_column_super_pixel
+
+Top level modules:
+	tb_column_super_pixel
+
+} {} {}} C:/Users/dell/Desktop/code_4_1/front/top_column_super_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/top_column_super_pixel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module top_column_super_pixel
+
+Top level modules:
+	top_column_super_pixel
+
+} {} {}} C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_top_super_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_top_super_pixel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_top_super_pixel
+
+Top level modules:
+	tb_top_super_pixel
+
+} {} {}} C:/Users/dell/Desktop/code_4_1/front/single_pixel_parallel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/single_pixel_parallel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module single_pixel_parallel
+
+Top level modules:
+	single_pixel_parallel
+
+} {} {}} C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_single_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1/front/TB_4_1/tb_single_pixel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module single_tb
+
+Top level modules:
+	single_tb
+
+} {} {}}
