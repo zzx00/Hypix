@@ -2,7 +2,7 @@
 //config_do怎么解释？
 //clk_out说是要用门控时钟替换一下，我替换了，但是有点问题，翻下去看看
 module pixel_config(
-		clk_40MHz					,
+		//clk_40MHz					,
 		rst_n						,
 		Dpulse						,
 		Apulse_en					,
@@ -25,7 +25,7 @@ module pixel_config(
 		rst_n_out					//并行复位输入
 	);
 
-	input clk_40MHz;
+	//input clk_40MHz;
 	input rst_n;
 	input Dpulse;
 	//input smode;

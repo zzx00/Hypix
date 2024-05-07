@@ -198,7 +198,7 @@ module digital_top_8_8(
 
 	//像素配置模块，整合配置信息，传入像素阵列
 	pixel_config u_pixel_config(
-		.clk_40MHz(clk_40MHz),
+		//.clk_40MHz(clk_40MHz),
 		.rst_n(rst_n),
 		.Dpulse(Dpulse),
 		.shutter(shutter_spi_in),

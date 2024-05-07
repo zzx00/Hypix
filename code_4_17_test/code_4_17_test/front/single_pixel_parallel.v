@@ -35,6 +35,7 @@ module single_pixel_parallel(
     reg [4:0] FTOA;
 	reg [4:0] FTOA_photon;
 	reg [4:0] FTOA_particle;
+	reg flag_FTOA;//FTOA标志位
 
 
 	always @(hit_pixel or flag_clear or shutter)
@@ -54,15 +55,24 @@ module single_pixel_parallel(
 				end
 		end
 	
-    always @(posedge clk_gating_single_pixel_640MHz or posedge out_flag) 
+    always @(posedge clk_gating_single_pixel_640MHz or posedge out_flag or negedge hit_or) 
         begin
 			if(out_flag)
                 begin
                     FTOA_particle <= 5'd0;
+					flag_FTOA<=0;
                 end
 			else
 			if(hit_or) begin
-				FTOA_particle<={FTOA_particle[3:0],~(FTOA_particle[4]^FTOA_particle[2])};//5位LFSR抽3、5位
+				if(flag_FTOA==0) begin
+					FTOA_particle<=5'b00001;
+					flag_FTOA<=1;
+				end else begin
+					FTOA_particle<={FTOA_particle[3:0],~(FTOA_particle[4]^FTOA_particle[2])};//5位LFSR抽3、5位
+				end
+				
+			end else if(!hit_or) begin
+				flag_FTOA<=0;
 			end
                 
         end

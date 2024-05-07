@@ -15,6 +15,7 @@ assign hit_1_right=hit[63:48];
 
 digital_top_8_8 inst(
 		clk_40MHz,
+		//spi_clk,
 		clk_640MHz,
 		//rst_n_pixel,//像素阵列复位信号，低电平有效
 		rst_n,//复位信号，低电平有效
@@ -46,7 +47,7 @@ digital_top_8_8 inst(
 	parameter spi_clk_period = 25;
 	
 	always #12.5 clk_40MHz = ~clk_40MHz;
-	always #12.5 spi_clk = ~spi_clk;
+	//always #20 spi_clk = ~spi_clk;
     always #0.78125 clk_640MHz=~clk_640MHz;
 
 
@@ -55,8 +56,8 @@ digital_top_8_8 inst(
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/spi_opera.v"
 
     initial begin
-        clk_640MHz=0;
-        spi_clk=0;
+        // clk_640MHz=0;
+        // spi_clk=0;
         chip_init;
         // #25
 		// hit[0]=1;
@@ -141,10 +142,10 @@ task SPI_DAC;
 	reg [5:0] DAC_mem_3 [15:0];
 	begin
 		#100
-		$readmemb("D:\\NWPU\\VerilogCode\\HeYingHua\\code_4_17_test\\code_4_17_test\\DAC_config\\DAC_0.txt",DAC_mem_0);
-		$readmemb("D:\\NWPU\\VerilogCode\\HeYingHua\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_1.txt",DAC_mem_1);
-		$readmemb("D:\\NWPU\\VerilogCode\\HeYingHua\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_2.txt",DAC_mem_2);
-		$readmemb("D:\\NWPU\\VerilogCode\\HeYingHua\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_3.txt",DAC_mem_3);
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_0.txt",DAC_mem_0);
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_1.txt",DAC_mem_1);
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_2.txt",DAC_mem_2);
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\DAC_config/DAC_3.txt",DAC_mem_3);
 		#100
 		spi_write(3'b000, 8'b11000000);
 		for(i=0;i<16;i=i+1) begin

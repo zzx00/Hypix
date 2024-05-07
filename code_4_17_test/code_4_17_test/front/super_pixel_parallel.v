@@ -348,14 +348,14 @@ module super_pixel_parallel(
 	);
 
 
-	assign hit_or[0] = !config_info_temp[1] & (hit[0] | (Dpulse & config_info_temp[0])) & !hit_pixel[0] & !mode & !shutter;
-    assign hit_or[1] = !config_info_temp[7] & (hit[1] | (Dpulse & config_info_temp[6])) & !hit_pixel[1] & !mode & !shutter;
-    assign hit_or[2] = !config_info_temp[13] & (hit[2] | (Dpulse & config_info_temp[12])) & !hit_pixel[2] & !mode & !shutter;
-    assign hit_or[3] = !config_info_temp[19] & (hit[3] | (Dpulse & config_info_temp[18])) & !hit_pixel[3] & !mode & !shutter;
-    assign hit_or[4] = !config_info_temp[25] & (hit[4] | (Dpulse & config_info_temp[24])) & !hit_pixel[4] & !mode & !shutter;
-    assign hit_or[5] = !config_info_temp[31] & (hit[5] | (Dpulse & config_info_temp[30])) & !hit_pixel[5] & !mode & !shutter;
-    assign hit_or[6] = !config_info_temp[37] & (hit[6] | (Dpulse & config_info_temp[36])) & !hit_pixel[6] & !mode & !shutter;
-    assign hit_or[7] = !config_info_temp[43] & (hit[7] | (Dpulse & config_info_temp[42])) & !hit_pixel[7] & !mode & !shutter;
+	assign hit_or[0] = (!config_info_temp[1] & (hit[0] | (Dpulse & config_info_temp[0]))|hit_pixel_negedge[0]) & !hit_pixel[0] & !mode & !shutter;
+    assign hit_or[1] = (!config_info_temp[7] & (hit[1] | (Dpulse & config_info_temp[6]))|hit_pixel_negedge[1]) & !hit_pixel[1] & !mode & !shutter;
+    assign hit_or[2] = (!config_info_temp[13] & (hit[2] | (Dpulse & config_info_temp[12]))|hit_pixel_negedge[2]) & !hit_pixel[2] & !mode & !shutter;
+    assign hit_or[3] = (!config_info_temp[19] & (hit[3] | (Dpulse & config_info_temp[18]))|hit_pixel_negedge[3])& !hit_pixel[3] & !mode & !shutter;
+    assign hit_or[4] = (!config_info_temp[25] & (hit[4] | (Dpulse & config_info_temp[24]))|hit_pixel_negedge[4]) & !hit_pixel[4] & !mode & !shutter;
+    assign hit_or[5] = (!config_info_temp[31] & (hit[5] | (Dpulse & config_info_temp[30]))|hit_pixel_negedge[5]) & !hit_pixel[5] & !mode & !shutter;
+    assign hit_or[6] = (!config_info_temp[37] & (hit[6] | (Dpulse & config_info_temp[36]))|hit_pixel_negedge[6]) & !hit_pixel[6] & !mode & !shutter;
+    assign hit_or[7] = (!config_info_temp[43] & (hit[7] | (Dpulse & config_info_temp[42]))|hit_pixel_negedge[7])& !hit_pixel[7] & !mode & !shutter;
 
 
     // assign clk_gating_single_pixel_640MHz[0] = hit_or[0] & clk_640MHz;
