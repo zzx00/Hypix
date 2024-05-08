@@ -43,6 +43,7 @@ digital_top_8_8 inst(
 		
 	);
 
+
 	parameter clk_period = 25;
 	parameter spi_clk_period = 25;
 	
@@ -50,15 +51,17 @@ digital_top_8_8 inst(
 	//always #20 spi_clk = ~spi_clk;
     always #0.78125 clk_640MHz=~clk_640MHz;
 
-
+reg [27:0] reg_SIP;
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/chip_init.v"
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/single_pixel_test.v"
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/spi_opera.v"
-
+integer handle_SIP;
+integer SIP_counter;
     initial begin
         // clk_640MHz=0;
         // spi_clk=0;
         chip_init;
+		//SPI_DAC;
         // #25
 		// hit[0]=1;
 		// hit[1]=1;
@@ -91,21 +94,28 @@ digital_top_8_8 inst(
 		// #25
         // shutter_in=1'b0;
 		// #10000
-		// #100
-		// //给一个延迟，不然正确写不进去
-        // single_pixel_test(0,0,000);
-		// #100
-		// single_pixel_test(1,1,111);
-		// #100
-		// single_pixel_test(3,1,111);
-		// #100
-		// single_pixel_test(0,1,101);
-		// #100
-		// single_pixel_test(2,0,110);
-		SPI_DAC;
+		handle_SIP=$fopen("./SIP.txt","w");
+		#100
+		//给一个延迟，不然正确写不进去
+        single_pixel_test(0,0,000);
+		#100
+		single_pixel_test(1,1,111);
+		#100
+		single_pixel_test(3,1,111);
+		#100
+		single_pixel_test(0,1,101);
+		#100
+		single_pixel_test(2,0,110);
+		#1000
+		$fwrite(handle_SIP,"\narbiter_data is:%b ,TOA is:%b ,FTOA is:%b ,TOT is:%b , %b , %b , %b .\n",reg_SIP,reg_SIP[27:19],reg_SIP[18:14],reg_SIP[13:6],reg_SIP[5],reg_SIP[4:2],reg_SIP[1:0]);
+		#100
+		$fclose(handle_SIP);
+		$stop;
+		
 
-        $stop;
     end
+
+
 
 
 /***********chip init*****************/
@@ -134,6 +144,28 @@ task chip_init;
 endtask
 
 
+
+always @(posedge clk_40MHz or posedge rst_n) begin
+	if(!rst_n) begin
+		SIP_counter=28;
+		reg_SIP<=28'd0;
+	end else begin
+		if(valid_out==1&&SIP_counter==28) begin
+			$fwrite(handle_SIP,"\narbiter_data is:%b ,TOA is:%b ,FTOA is:%b ,TOT is:%b , %b , %b , %b .\n",reg_SIP,reg_SIP[27:19],reg_SIP[18:14],reg_SIP[13:6],reg_SIP[5],reg_SIP[4:2],reg_SIP[1:0]);
+			reg_SIP[27]<=route_data_proc;
+            $fwrite(handle_SIP,"\n%b",route_data_proc);
+            SIP_counter=1;
+		end else if(SIP_counter!=28) begin
+			reg_SIP[27-SIP_counter]<=route_data_proc;
+			$fwrite(handle_SIP,route_data_proc);
+			SIP_counter=SIP_counter+1;
+		end
+	end
+end
+
+
+
+
 task SPI_DAC;
 	integer i;
 	reg [5:0] DAC_mem_0 [15:0];
@@ -159,6 +191,7 @@ task SPI_DAC;
 			$display("DAC_mem_1_%d :%b",i,DAC_mem_1[i]);
 			$display("DAC_mem_0_%d :%b",i,DAC_mem_0[i]);
 		end
+		spi_write(3'b000, 8'b11001000);
 	end
 	
 
