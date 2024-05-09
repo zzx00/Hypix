@@ -52,11 +52,19 @@ digital_top_8_8 inst(
     always #0.78125 clk_640MHz=~clk_640MHz;
 
 reg [27:0] reg_SIP;
+reg [4:0] FTOA_temp1 [31:0];
+reg [4:0] FTOA_temp2 [31:0];
+reg [7:0] ToT_temp1 [255:0];
+reg [7:0] ToT_temp2 [255:0];
+reg [8:0] TimeStamp_temp1 [512:0];
+reg [8:0] TimeStamp_temp2 [512:0];
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/chip_init.v"
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/single_pixel_test.v"
     // `include "C:/Users/dell/Desktop/code_4_1_test/TB_all/task/spi_opera.v"
 integer handle_SIP;
 integer SIP_counter;
+integer temp1;
+integer FTOA_handle,TOT_handle,TimeStamp_handle;
     initial begin
         // clk_640MHz=0;
         // spi_clk=0;
@@ -94,6 +102,34 @@ integer SIP_counter;
 		// #25
         // shutter_in=1'b0;
 		// #10000
+		#100
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\TB_all\\LFSR_5bit.txt",FTOA_temp1,0,30);
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\TB_all\\LFSR_8bit.txt",ToT_temp1,0,254);
+		$readmemb("C:\\Users\\dell\\Desktop\\code_4_17_test\\code_4_17_test\\code_4_17_test\\TB_all\\Timestamp.txt",TimeStamp_temp1,0,511);
+		FTOA_handle=$fopen("./FTOA_temp.txt","w");
+		TOT_handle=$fopen("./ToT_temp.txt","w");
+		TimeStamp_handle=$fopen("./TimeStamp_temp.txt","w");
+
+
+		for(temp1=0;temp1<31;temp1=temp1+1) begin
+			FTOA_temp2[FTOA_temp1[temp1]]=temp1;
+		end
+		for(temp1=0;temp1<255;temp1=temp1+1) begin
+			ToT_temp2[ToT_temp1[temp1]]=temp1;
+		end
+		for(temp1=0;temp1<512;temp1=temp1+1) begin
+			TimeStamp_temp2[TimeStamp_temp1[temp1]]=temp1;
+		end
+		for(temp1=0;temp1<31;temp1=temp1+1) begin
+			$fwrite(FTOA_handle,"%d\n",FTOA_temp2[temp1]);
+		end
+		for(temp1=0;temp1<255;temp1=temp1+1) begin
+			$fwrite(TOT_handle,"%d\n",ToT_temp2[temp1]);
+		end
+		for(temp1=0;temp1<512;temp1=temp1+1) begin
+			$fwrite(TimeStamp_handle,"%d\n",TimeStamp_temp2[temp1]);
+		end
+
 		handle_SIP=$fopen("./SIP.txt","w");
 		#100
 		//给一个延迟，不然正确写不进去
@@ -107,7 +143,7 @@ integer SIP_counter;
 		#100
 		single_pixel_test(2,0,110);
 		#1000
-		$fwrite(handle_SIP,"\narbiter_data is:%b ,TOA is:%b ,FTOA is:%b ,TOT is:%b , %b , %b , %b .\n",reg_SIP,reg_SIP[27:19],reg_SIP[18:14],reg_SIP[13:6],reg_SIP[5],reg_SIP[4:2],reg_SIP[1:0]);
+		$fwrite(handle_SIP,"\narbiter_data is:%b ,TOA is:%b ,FTOA is:%b ,TOT is:%b , %b , %b , %b .\nFTOA:%d ,ToT:%d ,TimeStamp:%d.\n",reg_SIP,reg_SIP[27:19],reg_SIP[18:14],reg_SIP[13:6],reg_SIP[5],reg_SIP[4:2],reg_SIP[1:0],FTOA_temp2[reg_SIP[18:14]],ToT_temp2[reg_SIP[13:6]],TimeStamp_temp2[reg_SIP[27:19]]);
 		#100
 		$fclose(handle_SIP);
 		$stop;
@@ -151,7 +187,7 @@ always @(posedge clk_40MHz or posedge rst_n) begin
 		reg_SIP<=28'd0;
 	end else begin
 		if(valid_out==1&&SIP_counter==28) begin
-			$fwrite(handle_SIP,"\narbiter_data is:%b ,TOA is:%b ,FTOA is:%b ,TOT is:%b , %b , %b , %b .\n",reg_SIP,reg_SIP[27:19],reg_SIP[18:14],reg_SIP[13:6],reg_SIP[5],reg_SIP[4:2],reg_SIP[1:0]);
+			$fwrite(handle_SIP,"\narbiter_data is:%b ,TOA is:%b ,FTOA is:%b ,TOT is:%b , %b , %b , %b .\nFTOA:%d ,ToT:%d ,TimeStamp:%d.\n",reg_SIP,reg_SIP[27:19],reg_SIP[18:14],reg_SIP[13:6],reg_SIP[5],reg_SIP[4:2],reg_SIP[1:0],FTOA_temp2[reg_SIP[18:14]],ToT_temp2[reg_SIP[13:6]],TimeStamp_temp2[reg_SIP[27:19]]);
 			reg_SIP[27]<=route_data_proc;
             $fwrite(handle_SIP,"\n%b",route_data_proc);
             SIP_counter=1;

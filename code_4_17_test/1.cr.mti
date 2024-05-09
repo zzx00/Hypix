@@ -1162,19 +1162,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	spi_interface
 
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/TB_all/TB_digital_8_8.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/TB_all/TB_digital_8_8.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module tb_digital_top_8_8
-
-Top level modules:
-	tb_digital_top_8_8
-
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/peri_node.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/peri_node.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module peri_node
 
 Top level modules:
 	peri_node
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module digital_top_8_8
+
+Top level modules:
+	digital_top_8_8
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -1204,12 +1204,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	tb_top_super_pixel
 
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/pixel_config.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/pixel_config.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module digital_top_8_8
+-- Compiling module pixel_config
 
 Top level modules:
-	digital_top_8_8
+	pixel_config
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -1217,13 +1217,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	dealing_with_congestion
-
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/pixel_config.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/pixel_config.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module pixel_config
-
-Top level modules:
-	pixel_config
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/End_of_Col.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/End_of_Col.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -1239,19 +1232,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	tb_column_super_pixel
 
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module top_single_super_pixel
+-- Compiling module fifo_deep_two
 
 Top level modules:
-	top_single_super_pixel
-
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module mux2_1_opera
-
-Top level modules:
-	mux2_1_opera
+	fifo_deep_two
 
 } {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/data_route_merge_proc.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/data_route_merge_proc.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -1260,12 +1246,19 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	data_route_merge_proc
 
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module fifo_deep_two
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2_1_opera
 
 Top level modules:
-	fifo_deep_two
+	mux2_1_opera
+
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module top_single_super_pixel
+
+Top level modules:
+	top_single_super_pixel
 
 } {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/data_route_proc.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/data_route_proc.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -1273,6 +1266,41 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 
 Top level modules:
 	data_route_proc
+
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_interface.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_interface.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module spi_interface
+
+Top level modules:
+	spi_interface
+
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_data_trans.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_data_trans.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module spi_data_trans
+
+Top level modules:
+	spi_data_trans
+
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/PIS.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/PIS.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PIS
+
+Top level modules:
+	PIS
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/in_out_clear.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/in_out_clear.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module in_out_clear
+
+Top level modules:
+	in_out_clear
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/ctrl_registers.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/ctrl_registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ctrl_registers
+
+Top level modules:
+	ctrl_registers
 
 } {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/tcb018gbwp7t.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/tcb018gbwp7t.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -2403,40 +2431,12 @@ Top level modules:
 	XOR4D1BWP7T
 	XOR4D2BWP7T
 
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/ctrl_registers.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/ctrl_registers.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ctrl_registers
-
-Top level modules:
-	ctrl_registers
-
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/in_out_clear.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/in_out_clear.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module in_out_clear
-
-Top level modules:
-	in_out_clear
-
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/PIS.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/PIS.v
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/peri_node.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/peri_node.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module PIS
+-- Compiling module peri_node
 
 Top level modules:
-	PIS
-
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_data_trans.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_data_trans.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module spi_data_trans
-
-Top level modules:
-	spi_data_trans
-
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_interface.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/spi_interface.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module spi_interface
-
-Top level modules:
-	spi_interface
+	peri_node
 
 } {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/TB_all/TB_digital_8_8.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/TB_all/TB_digital_8_8.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -2445,33 +2445,12 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	tb_digital_top_8_8
 
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/peri_node.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/peri_node.v
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module peri_node
+-- Compiling module digital_top_8_8
 
 Top level modules:
-	peri_node
-
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module tb_top_super_pixel
-
-Top level modules:
-	tb_top_super_pixel
-
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module top_column_super_pixel
-
-Top level modules:
-	top_column_super_pixel
-
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module single_pixel_parallel
-
-Top level modules:
-	single_pixel_parallel
+	digital_top_8_8
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/column_pixel_peri.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/column_pixel_peri.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -2480,19 +2459,26 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	column_pixel_peri
 
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/digital_top_8_8.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module digital_top_8_8
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module single_pixel_parallel
 
 Top level modules:
-	digital_top_8_8
+	single_pixel_parallel
 
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module dealing_with_congestion
+-- Compiling module top_column_super_pixel
 
 Top level modules:
-	dealing_with_congestion
+	top_column_super_pixel
+
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_top_super_pixel
+
+Top level modules:
+	tb_top_super_pixel
 
 } {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/pixel_config.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/pixel_config.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -2500,6 +2486,13 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 
 Top level modules:
 	pixel_config
+
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dealing_with_congestion
+
+Top level modules:
+	dealing_with_congestion
 
 } {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/End_of_Col.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/End_of_Col.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -2515,19 +2508,12 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	tb_column_super_pixel
 
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_merge_proc.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_merge_proc.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module data_route_merge_proc
+} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mux2_1_opera
 
 Top level modules:
-	data_route_merge_proc
-
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module fifo_deep_two
-
-Top level modules:
-	fifo_deep_two
+	mux2_1_opera
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -2536,19 +2522,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	top_single_super_pixel
 
-} {} {}} D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v {1 {vlog -work work -vopt -stats=none D:/NWPU/VerilogCode/HeYingHua/code_4_17_test/code_4_17_test/peri_circuit/mux2_1_opera.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module mux2_1_opera
-
-Top level modules:
-	mux2_1_opera
-
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_proc.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_proc.v
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/fifo_deep_two.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module data_route_proc
+-- Compiling module fifo_deep_two
 
 Top level modules:
-	data_route_proc
+	fifo_deep_two
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_merge_proc.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_merge_proc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module data_route_merge_proc
+
+Top level modules:
+	data_route_merge_proc
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/super_pixel_parallel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/super_pixel_parallel.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -2556,5 +2542,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	super_pixel_parallel
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_proc.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/data_route_proc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module data_route_proc
+
+Top level modules:
+	data_route_proc
 
 } {} {}}
