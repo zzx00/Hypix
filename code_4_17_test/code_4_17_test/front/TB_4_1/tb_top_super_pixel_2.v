@@ -5,6 +5,7 @@ reg clk_40MHz,clk_640MHz,push_clk,rst_n,rst_n_pixel;
 reg mode,shutter;
 reg Dpulse,Apulse_en;
 reg [7:0] hit;
+reg [8:0] TimeStamp_b;
 reg [8:0] TimeStamp;
 reg [5:0] config_info;
 reg addr_col,shake_hands_next;
@@ -110,7 +111,7 @@ task super_pixel_init_1;
     begin
         rst_n=0;
         rst_n_pixel=0;
-        TimeStamp=9'd0;
+        TimeStamp_b=9'd0;
         addr_col=0;
         last_data=26'd0;
         shake_hands_next=0;
@@ -134,9 +135,9 @@ endtask
 
 task super_pixel_init_2;
     begin
-        //rst_n=0;
-        //rst_n_pixel=0;
-        TimeStamp=9'b111111111;
+        rst_n=0;
+        rst_n_pixel=0;
+        TimeStamp_b=9'b111111111;
         addr_col=0;
         last_data=26'd0;
         shake_hands_next=0;
@@ -147,20 +148,23 @@ task super_pixel_init_2;
         Apulse_en=0;
         
         #25
-        //rst_n=1;
+        rst_n=1;
         last_data=26'd0;
         config_info=6'b111100;
         shake_hands_next=1;
         #200
-        #50;
-        //rst_n_pixel<=1'b1;
+        #50
+        rst_n_pixel<=1'b1;
     end
 
 endtask
 
 
 
-always #25 TimeStamp<=TimeStamp+1;
+always #25 TimeStamp_b<=TimeStamp_b+1;
+always @(TimeStamp_b) begin
+    TimeStamp <= {(TimeStamp_b >> 1'b1) ^ TimeStamp_b};
+end
 always #0.78125 clk_640MHz<=~clk_640MHz;
 always #12.5 clk_40MHz<=~clk_40MHz;
 always #12.5 push_clk<=~push_clk;//外部输入的配置时钟，现在给40MHz
