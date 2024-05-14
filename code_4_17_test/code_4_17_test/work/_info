@@ -16,6 +16,7 @@ VFab=1W>H`gJ=iIH?RV?cW0
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z2 OL;O;10.4;61
+R0
 T_opt1
 !s110 1715579461
 V6Fm3dY:M98@PjEj8K?Y?U2
@@ -26,16 +27,15 @@ n@_opt1
 R2
 R0
 T_opt2
-!s110 1715577906
-VA8?3_ZkdYob0>>Mz6g>Vd0
-04 20 4 work tb_top_super_pixel_3 fast 0
-=1-2088107d5c2a-6641a432-85-2438
+!s110 1715669298
+Ve^g57KRW_PohIW_@ho@dQ3
+04 18 4 work tb_top_super_pixel fast 0
+=1-2088107d5c2a-66430930-204-e78
 R1
 n@_opt2
 R2
-R0
 vAN2D0BWP7T
-Z3 !s110 1715579450
+Z3 !s110 1715669229
 !i10b 1
 !s100 4]6g3ZKAH>c0T4nVokGJS2
 Ig]ci1]<_7Tg3DF[QSnWXd3
@@ -49,7 +49,7 @@ Z9 OL;L;10.4;61
 r1
 !s85 0
 31
-Z10 !s108 1715579450.090000
+Z10 !s108 1715669229.171000
 Z11 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/tcb018gbwp7t.v|
 Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/tcb018gbwp7t.v|
 !i113 0
@@ -11677,7 +11677,7 @@ R12
 R13
 n@s@e@d@f@q@n@d2@b@w@p7@t
 vsingle_pixel_parallel
-Z18 !s110 1715579449
+Z18 !s110 1715669228
 !i10b 1
 !s100 QOeQGIWbA^]G?P;0z3QOc0
 I<O2JHOchJLHIN@RllzNeh3
@@ -11691,7 +11691,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579449.834000
+!s108 1715669228.942000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v|
 !i113 0
@@ -11777,7 +11777,7 @@ r1
 !i113 0
 R13
 vsuper_pixel_parallel
-R18
+R3
 !i10b 1
 !s100 ?D[8;dGH5UNc[<c_XW?Sa0
 I6L62EUeH_:<89bmmV4G9l2
@@ -11791,7 +11791,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579449.957000
+!s108 1715669229.065000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/super_pixel_parallel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/super_pixel_parallel.v|
 !i113 0
@@ -11837,27 +11837,27 @@ r1
 !i113 0
 R13
 vtb_top_super_pixel
-R19
+Z21 !s110 1715669230
 !i10b 1
-!s100 o:CX0RT6?2gIhZbbi4AOe3
-I7T8ama`B^5fL6HNY`>OJo2
+!s100 bQo@EU3[N[[F9G<R:gh2E3
+IGcUaR>i0]3ibMPO=;digU2
 R4
-R20
-w1711772524
-8D:/Verilog_Code/He/code_4_1/front/TB_4_1/tb_top_super_pixel.v
-FD:/Verilog_Code/He/code_4_1/front/TB_4_1/tb_top_super_pixel.v
+R5
+w1715669167
+8C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v
+FC:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v
 L0 3
 R9
 r1
 !s85 0
 31
-!s108 1712416618.681000
-!s107 D:/Verilog_Code/He/code_4_1/front/TB_4_1/tb_top_super_pixel.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog_Code/He/code_4_1/front/TB_4_1/tb_top_super_pixel.v|
+!s108 1715669230.447000
+!s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v|
 !i113 0
 R13
 vtb_top_super_pixel_2
-Z21 !s110 1715579451
+R21
 !i10b 1
 !s100 ?Uz^1OCGGPdglIjh;Pof92
 IDe>oWTYn3cP5G4@Ui:hzV0
@@ -11871,7 +11871,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579451.189000
+!s108 1715669230.238000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_2.v|
 !i113 0
@@ -11891,7 +11891,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579451.291000
+!s108 1715669230.341000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_3.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_3.v|
 !i113 0
@@ -11911,7 +11911,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579451.070000
+!s108 1715669230.138000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_4.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_4.v|
 !i113 0
@@ -11959,7 +11959,7 @@ R12
 R13
 n@t@i@e@l@b@w@p7@t
 vtop_column_super_pixel
-R3
+R21
 !i10b 1
 !s100 neHG6F]@U9z6WXKz353[H3
 IPhJ<cF?TPjPf;H8lMn6R73
@@ -11973,7 +11973,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579450.935000
+!s108 1715669230.004000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v|
 !i113 0
@@ -11993,7 +11993,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715579449.756000
+!s108 1715669228.844000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v|
 !i113 0
