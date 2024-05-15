@@ -1190,13 +1190,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	tb_top_super_pixel
 
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module dealing_with_congestion
-
-Top level modules:
-	dealing_with_congestion
-
 } {} {}} C:/Users/dell/Desktop/code_4_1_test/peri_circuit/spi_data_trans.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1_test/peri_circuit/spi_data_trans.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module spi_data_trans
@@ -1210,6 +1203,13 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	pixel_config
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/dealing_with_congestion.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dealing_with_congestion
+
+Top level modules:
+	dealing_with_congestion
 
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/End_of_Col.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/End_of_Col.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -1295,19 +1295,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	top_single_super_pixel
 
-} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/column_pixel_peri.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/column_pixel_peri.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module column_pixel_peri
-
-Top level modules:
-	column_pixel_peri
-
 } {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module single_pixel_parallel
 
 Top level modules:
 	single_pixel_parallel
+
+} {} {}} C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/column_pixel_peri.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/peri_circuit/column_pixel_peri.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module column_pixel_peri
+
+Top level modules:
+	column_pixel_peri
 
 } {} {}} C:/Users/dell/Desktop/code_4_1_test/peri_circuit/ctrl_registers.v {1 {vlog -work work -vopt -stats=none C:/Users/dell/Desktop/code_4_1_test/peri_circuit/ctrl_registers.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014

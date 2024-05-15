@@ -62,18 +62,22 @@ module single_pixel_parallel(
                     FTOA_particle <= 5'd0;
 					flag_FTOA<=0;
                 end
-			else
-			if(hit_or) begin
-				if(flag_FTOA==0) begin
+			else if(!hit_or) 
+			    begin
+					flag_FTOA<=0;
+			    end 
+			else if(hit_or) 
+			    begin
+		        	if(flag_FTOA==0) 
+					begin
 					FTOA_particle<=5'b00001;
 					flag_FTOA<=1;
-				end else begin
-					FTOA_particle<={FTOA_particle[3:0],~(FTOA_particle[4]^FTOA_particle[2])};//5位LFSR抽3、5位
-				end
-				
-			end else if(!hit_or) begin
-				flag_FTOA<=0;
-			end
+				    end 
+					else 
+					begin
+					FTOA_particle<={FTOA_particle[3:0],~(FTOA_particle[4]^FTOA_particle[2])};
+				    end
+			    end
                 
         end
 

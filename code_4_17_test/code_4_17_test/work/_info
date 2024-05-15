@@ -9,33 +9,33 @@ z2
 cModel Technology
 Z0 dC:/Users/dell/Desktop/code_4_1/front
 T_opt
-!s110 1715581986
-VFab=1W>H`gJ=iIH?RV?cW0
-04 20 4 work tb_top_super_pixel_4 fast 0
-=1-2088107d5c2a-6641b422-213-7d88
+!s110 1715756346
+V7NkA7CNCK3mn;K7P;790>2
+04 20 4 work tb_top_super_pixel_3 fast 0
+=1-2088107d5c2a-66445d3a-198-767c
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z2 OL;O;10.4;61
 R0
 T_opt1
-!s110 1715579461
-V6Fm3dY:M98@PjEj8K?Y?U2
+!s110 1715756215
+VaS?INIZ3]86NfhDGL<Nnk2
 04 20 4 work tb_top_super_pixel_2 fast 0
-=1-2088107d5c2a-6641aa44-3e0-768c
+=1-2088107d5c2a-66445cb5-389-7528
 R1
 n@_opt1
 R2
 R0
 T_opt2
-!s110 1715669298
-Ve^g57KRW_PohIW_@ho@dQ3
-04 18 4 work tb_top_super_pixel fast 0
-=1-2088107d5c2a-66430930-204-e78
+!s110 1715756399
+V1A^ZInFYUafW0gcO2>=9:1
+04 20 4 work tb_top_super_pixel_4 fast 0
+=1-2088107d5c2a-66445d6f-36c-5ae0
 R1
 n@_opt2
 R2
 vAN2D0BWP7T
-Z3 !s110 1715669229
+Z3 !s110 1715756197
 !i10b 1
 !s100 4]6g3ZKAH>c0T4nVokGJS2
 Ig]ci1]<_7Tg3DF[QSnWXd3
@@ -49,7 +49,7 @@ Z9 OL;L;10.4;61
 r1
 !s85 0
 31
-Z10 !s108 1715669229.171000
+Z10 !s108 1715756197.248000
 Z11 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/tcb018gbwp7t.v|
 Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/tcb018gbwp7t.v|
 !i113 0
@@ -11446,7 +11446,7 @@ R12
 R13
 n@s@e@d@f@k@c@n@d0@b@w@p7@t
 vSEDFKCND1BWP7T
-R3
+Z18 !s110 1715756198
 !i10b 1
 !s100 [F>GP4N@OiIYW7JZ>RZD22
 I`Mn@mAi=oOWooE7PLSGXf1
@@ -11467,7 +11467,7 @@ R12
 R13
 n@s@e@d@f@k@c@n@d1@b@w@p7@t
 vSEDFKCND2BWP7T
-R3
+R18
 !i10b 1
 !s100 klDEEkMag^64Az6]nFm1:1
 I[H`iG5UkI[>W7WHnc:PXo1
@@ -11488,7 +11488,7 @@ R12
 R13
 n@s@e@d@f@k@c@n@d2@b@w@p7@t
 vSEDFKCNQD0BWP7T
-R3
+R18
 !i10b 1
 !s100 iB0Dh=>g1QP2F=G7Ta0283
 INlGbX?jUg:KhC8<ANniG]2
@@ -11509,7 +11509,7 @@ R12
 R13
 n@s@e@d@f@k@c@n@q@d0@b@w@p7@t
 vSEDFKCNQD1BWP7T
-R3
+R18
 !i10b 1
 !s100 C[?KDRoZUnMh;ZhN:;2Lm2
 I;6n3eWK?Q_gAC;[XKNF;]0
@@ -11530,7 +11530,7 @@ R12
 R13
 n@s@e@d@f@k@c@n@q@d1@b@w@p7@t
 vSEDFKCNQD2BWP7T
-R3
+R18
 !i10b 1
 !s100 _jDDNM@eNf<hN^NgdjSFC0
 I`9a5Z;z9eIP63n2TAD[]l3
@@ -11551,7 +11551,7 @@ R12
 R13
 n@s@e@d@f@k@c@n@q@d2@b@w@p7@t
 vSEDFQD0BWP7T
-R3
+R18
 !i10b 1
 !s100 X0WD@EdgNSdXeI<VgXUM?0
 IG7CP5W^GO@?hjZjid`T;^1
@@ -11572,7 +11572,7 @@ R12
 R13
 n@s@e@d@f@q@d0@b@w@p7@t
 vSEDFQD1BWP7T
-R3
+R18
 !i10b 1
 !s100 la[cReM3>G=YbXXogmhzZ2
 I8>>ecLE^GR@MCjJI?:<]P3
@@ -11593,7 +11593,7 @@ R12
 R13
 n@s@e@d@f@q@d1@b@w@p7@t
 vSEDFQD2BWP7T
-R3
+R18
 !i10b 1
 !s100 HgD5Y5W[n48:ekf;d8>zg1
 I2KTdZhn1B0YNTcF26`Oai3
@@ -11614,7 +11614,7 @@ R12
 R13
 n@s@e@d@f@q@d2@b@w@p7@t
 vSEDFQND0BWP7T
-R3
+R18
 !i10b 1
 !s100 TZPeg7LeYLV;c<oI0>M?42
 I7=J:0RYeb]PVM3TcBLfoQ1
@@ -11635,7 +11635,7 @@ R12
 R13
 n@s@e@d@f@q@n@d0@b@w@p7@t
 vSEDFQND1BWP7T
-R3
+R18
 !i10b 1
 !s100 5f[`4algEj?hn<0:;9o5C0
 IG3Eb_L1l]@6FmU5AN:?]T3
@@ -11656,7 +11656,7 @@ R12
 R13
 n@s@e@d@f@q@n@d1@b@w@p7@t
 vSEDFQND2BWP7T
-R3
+R18
 !i10b 1
 !s100 N<VzT438lDk_hR<^6:CSJ0
 I29ImA2BRnJ5YBgkUlHh<F1
@@ -11677,13 +11677,13 @@ R12
 R13
 n@s@e@d@f@q@n@d2@b@w@p7@t
 vsingle_pixel_parallel
-Z18 !s110 1715669228
+R3
 !i10b 1
-!s100 QOeQGIWbA^]G?P;0z3QOc0
-I<O2JHOchJLHIN@RllzNeh3
+!s100 5b_CZD1BR=Gj_<[<TSOo>1
+I<8KBJNe^o;?OO@5BkO@@f3
 R4
 R5
-w1715069249
+w1715756173
 8C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v
 FC:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v
 L0 1
@@ -11691,7 +11691,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715669228.942000
+!s108 1715756197.033000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/single_pixel_parallel.v|
 !i113 0
@@ -11791,7 +11791,7 @@ R9
 r1
 !s85 0
 31
-!s108 1715669229.065000
+!s108 1715756197.136000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/super_pixel_parallel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/super_pixel_parallel.v|
 !i113 0
@@ -11837,7 +11837,7 @@ r1
 !i113 0
 R13
 vtb_top_super_pixel
-Z21 !s110 1715669230
+R18
 !i10b 1
 !s100 bQo@EU3[N[[F9G<R:gh2E3
 IGcUaR>i0]3ibMPO=;digU2
@@ -11851,13 +11851,13 @@ R9
 r1
 !s85 0
 31
-!s108 1715669230.447000
+!s108 1715756198.932000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel.v|
 !i113 0
 R13
 vtb_top_super_pixel_2
-R21
+R18
 !i10b 1
 !s100 ?Uz^1OCGGPdglIjh;Pof92
 IDe>oWTYn3cP5G4@Ui:hzV0
@@ -11871,13 +11871,13 @@ R9
 r1
 !s85 0
 31
-!s108 1715669230.238000
+!s108 1715756198.471000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_2.v|
 !i113 0
 R13
 vtb_top_super_pixel_3
-R21
+R18
 !i10b 1
 !s100 PBASg0h>VQIgOBQc:N;hM3
 I1SSJQWE9cYLCo_=JlBXOl2
@@ -11891,13 +11891,13 @@ R9
 r1
 !s85 0
 31
-!s108 1715669230.341000
+!s108 1715756198.827000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_3.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_3.v|
 !i113 0
 R13
 vtb_top_super_pixel_4
-R21
+R18
 !i10b 1
 !s100 GCRJG54=E;@SdFiafb<aY0
 IeZJCE]cGLjVVN9f4a503;2
@@ -11911,13 +11911,13 @@ R9
 r1
 !s85 0
 31
-!s108 1715669230.138000
+!s108 1715756198.367000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_4.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/TB_4_1/tb_top_super_pixel_4.v|
 !i113 0
 R13
 vTIEHBWP7T
-R3
+R18
 !i10b 1
 !s100 XN:FFZoB=PLjjAXA1ka371
 ITo:7D^WMD<]g@]3h`2OeW0
@@ -11938,7 +11938,7 @@ R12
 R13
 n@t@i@e@h@b@w@p7@t
 vTIELBWP7T
-R3
+R18
 !i10b 1
 !s100 [WgzA_ZmCYnB2V9^=]ioa2
 IM=?HbXXAT9den_5@3PDDf3
@@ -11959,7 +11959,7 @@ R12
 R13
 n@t@i@e@l@b@w@p7@t
 vtop_column_super_pixel
-R21
+R18
 !i10b 1
 !s100 neHG6F]@U9z6WXKz353[H3
 IPhJ<cF?TPjPf;H8lMn6R73
@@ -11973,13 +11973,13 @@ R9
 r1
 !s85 0
 31
-!s108 1715669230.004000
+!s108 1715756198.227000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_column_super_pixel.v|
 !i113 0
 R13
 vtop_single_super_pixel
-R18
+!s110 1715756196
 !i10b 1
 !s100 RWQkUmCP^5Jj3Rk6a?mRk2
 IaA[z^A[7K4X=lP:AQ=nd52
@@ -11993,13 +11993,13 @@ R9
 r1
 !s85 0
 31
-!s108 1715669228.844000
+!s108 1715756196.951000
 !s107 C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/dell/Desktop/code_4_17_test/code_4_17_test/code_4_17_test/front/top_single_super_pixel.v|
 !i113 0
 R13
 Utsmc_dff
-R3
+R18
 !i10b 1
 !s100 <3od_;:l]F:bzQO?S@kjD2
 I20FokZZ^D2oV1m]d8m^Y60
@@ -12019,7 +12019,7 @@ R12
 !i113 0
 R13
 Utsmc_dla
-R3
+R18
 !i10b 1
 !s100 E0OmNk7UP_<0zm^z4^Al<1
 I:7R?`;D;SHTbOzaSPe[:92
@@ -12039,7 +12039,7 @@ R12
 !i113 0
 R13
 Utsmc_mux
-R3
+R18
 !i10b 1
 !s100 9UJJL63Zd^>TghzA=9WfF3
 I0_WJ@V173INnSH5SU]R9@1
@@ -12059,7 +12059,7 @@ R12
 !i113 0
 R13
 Utsmc_xbuf
-R3
+R18
 !i10b 1
 !s100 Z>zo:Yk<ideA^lORCLJZk3
 IBFaW214gech@XGXaiAko>3
@@ -12079,7 +12079,7 @@ R12
 !i113 0
 R13
 vXNR2D0BWP7T
-R3
+R18
 !i10b 1
 !s100 J4Ge7^A0UMgN4aKz4R:=D1
 I:CcEYd?eCPc>ZG6EnXogm2
@@ -12100,7 +12100,7 @@ R12
 R13
 n@x@n@r2@d0@b@w@p7@t
 vXNR2D1BWP7T
-R3
+R18
 !i10b 1
 !s100 7A5AoN0do>1[mPb<6VKbk1
 I4Qzkb^16nVGfU8i[od>aP3
@@ -12121,7 +12121,7 @@ R12
 R13
 n@x@n@r2@d1@b@w@p7@t
 vXNR2D2BWP7T
-R3
+R18
 !i10b 1
 !s100 nX]j7ZMhSBLDBSRNZ9gMA2
 I8l@]U5PU=g]d8AE_:okZa2
@@ -12142,7 +12142,7 @@ R12
 R13
 n@x@n@r2@d2@b@w@p7@t
 vXNR3D0BWP7T
-R3
+R18
 !i10b 1
 !s100 ?BRS@LLAR?UY2HhlLCY0z2
 I@5_TJ5[GT?VSNnUGV46cG0
@@ -12163,7 +12163,7 @@ R12
 R13
 n@x@n@r3@d0@b@w@p7@t
 vXNR3D1BWP7T
-R3
+R18
 !i10b 1
 !s100 GkOIfNbzK>PoR4nOMzi1W3
 IO_R@9zG:aTHRezcPJNh4S2
@@ -12184,7 +12184,7 @@ R12
 R13
 n@x@n@r3@d1@b@w@p7@t
 vXNR3D2BWP7T
-R3
+R18
 !i10b 1
 !s100 Z[IPHW>0oGC5cbDg=ZY?Y2
 I[zb^_[fc:83:U07?g1`E<2
@@ -12205,7 +12205,7 @@ R12
 R13
 n@x@n@r3@d2@b@w@p7@t
 vXNR4D0BWP7T
-R3
+R18
 !i10b 1
 !s100 EQAkURa1>2ga:PmSCJBS=3
 IdF;`WG_0z[><cPk@c:iMK2
@@ -12226,7 +12226,7 @@ R12
 R13
 n@x@n@r4@d0@b@w@p7@t
 vXNR4D1BWP7T
-R3
+R18
 !i10b 1
 !s100 O2[50EIX@C[3KLnhkG@lJ0
 IH0TRH>UiJ4e@5DfN=VXUT1
@@ -12247,7 +12247,7 @@ R12
 R13
 n@x@n@r4@d1@b@w@p7@t
 vXNR4D2BWP7T
-R3
+R18
 !i10b 1
 !s100 <bmNRmF_Xe:4=:[S4ofjA0
 I7V6YDWEPSof2N<>cR^>IH3
@@ -12268,7 +12268,7 @@ R12
 R13
 n@x@n@r4@d2@b@w@p7@t
 vXOR2D0BWP7T
-R3
+R18
 !i10b 1
 !s100 jH:oSOhkc<:LLcDk9b@ME1
 II_WYP?Y1^CkTkd5AL<gB`0
@@ -12289,7 +12289,7 @@ R12
 R13
 n@x@o@r2@d0@b@w@p7@t
 vXOR2D1BWP7T
-R3
+R18
 !i10b 1
 !s100 @HmHV7mFKYzE2`BNBLN`<3
 IRG`SohflcJiOIcGBAmYnJ1
@@ -12310,7 +12310,7 @@ R12
 R13
 n@x@o@r2@d1@b@w@p7@t
 vXOR2D2BWP7T
-R3
+R18
 !i10b 1
 !s100 ;7ao`B`WFH70Gh?1kTWmm0
 I3Ibz9RILW]fnJJERFMmUZ3
@@ -12331,7 +12331,7 @@ R12
 R13
 n@x@o@r2@d2@b@w@p7@t
 vXOR3D0BWP7T
-R3
+R18
 !i10b 1
 !s100 F=5IKdB5l7dnLUa6kkJ3D2
 I:`UCdKI]3K_K;N_?lWjAM1
@@ -12352,7 +12352,7 @@ R12
 R13
 n@x@o@r3@d0@b@w@p7@t
 vXOR3D1BWP7T
-R3
+R18
 !i10b 1
 !s100 k2fBW`QbZELiT]lK_Z4hO3
 IX>2^FVOaD?NJagZVLLAmC2
@@ -12373,7 +12373,7 @@ R12
 R13
 n@x@o@r3@d1@b@w@p7@t
 vXOR3D2BWP7T
-R3
+R18
 !i10b 1
 !s100 0TKo6?QG7XGia^F24K5cG2
 IXY=HmzIU11giI[XUj3`a30
@@ -12394,7 +12394,7 @@ R12
 R13
 n@x@o@r3@d2@b@w@p7@t
 vXOR4D0BWP7T
-R3
+R18
 !i10b 1
 !s100 h<^:j8jJkA=nF>Gc=LEGT3
 IA;HTKeR9@E8jcn8Q7<^AX2
@@ -12415,7 +12415,7 @@ R12
 R13
 n@x@o@r4@d0@b@w@p7@t
 vXOR4D1BWP7T
-R3
+R18
 !i10b 1
 !s100 SjO;<g?h1@EK7>EZMP=bh1
 IbCnnjkG[2L:F5Q;=[fFHX1
@@ -12436,7 +12436,7 @@ R12
 R13
 n@x@o@r4@d1@b@w@p7@t
 vXOR4D2BWP7T
-R3
+R18
 !i10b 1
 !s100 j9Rzga=bB<:VIX@fhAz322
 I:=jRFTmA;cPM5h4n`fMh]0
